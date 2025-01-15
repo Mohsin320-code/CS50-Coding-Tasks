@@ -1,0 +1,9 @@
+string=("Hello David")
+print(string)
+a=string.upper()
+b=string.lower()
+print(a)
+print(b)
+
+# $ make ceasor.c
+# $ ./ceasor
