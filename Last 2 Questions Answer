@@ -1,0 +1,52 @@
+Debug the following code that attempts to dynamically allocate memory:
+
+c
+
+int *arr = malloc(10 * sizeof(int));
+
+arr[10] = 5; 
+free(arr);
+
+Exactl Answer:
+
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+int *arr=malloc(10*sizeof(int));
+if(arry==NULL){
+printf("location of memory");
+}
+arry[9]=5;
+printf(arry[9]);
+return 1;
+}
+
+
+
+
+
+
+● Debug the following code snippet:
+
+{
+int x = 5
+// not use semicolon in last x=5;line15
+if (x == 5) { 
+
+ printf("X is 5\n") 
+
+}
+
+
+Exact Answer: 
+#include<stdio.h>
+int main(void)
+{
+int x=5;
+if(x==5)
+{
+printf("X is 5\n");
+}
+return 0;
+}
