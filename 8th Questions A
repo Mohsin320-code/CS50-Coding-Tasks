@@ -1,0 +1,2 @@
+Answer:
+If we apply linear search it can take some time to to findind exact destination and if we apply binary search it can go half middle move left for finding number and if dont find then move right to find destination it can help to solve the problem fast.
