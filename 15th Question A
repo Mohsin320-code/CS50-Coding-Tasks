@@ -1,0 +1,6 @@
+string={
+    "Total marks":80,
+    "Obtained Marks":75,
+    "roll":1025,
+}
+print(string)    
