@@ -1,0 +1,8 @@
+with open("file name") as f:
+#file name who you can open    
+print(f.read())
+#use  a for write
+line=f.count()
+#lines who saved in open file
+print(line)
+f.close()
