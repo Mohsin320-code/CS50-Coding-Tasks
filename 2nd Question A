@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main (void)
+{
+   int hight;
+   for(int i=0;i<hight;i++)
+   {
+      for(int j=0;j>i;j++)
+      {
+          printf("*");
+      }
+      printf("\n");
+   }
+   
+}                    
+// $ make mario.c
+// $ ./mario
+// $ hight 8
