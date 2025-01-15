@@ -1,0 +1,36 @@
+
+ #include<stdio.h>
+ #include<stdlib.h>
+ typedef struct node
+ {
+    int number;
+    struct node*next;
+ }node;
+ 
+    int main(void)
+ {
+    int *node=malloc(3*sizeof(int));
+    if(list==NULL)
+    {
+    return 1;
+    }
+    int list[0]=1;
+    int list[1]=2;
+    int list[2]=3;
+
+  int *temp=malloc(4*sizeof(int));
+  if (temp==NULL)
+  {
+    return 1;
+  }
+  if(int list[3]==4)
+   {
+      node.add(int list[4]);
+      return 1;
+   }
+  if(int list[1]==2)
+  {
+    node.remove(int lsit[1]);
+    return 1;
+  }
+ }
