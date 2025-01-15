@@ -1,0 +1,9 @@
+def count(string, char):
+    return string.count(char)
+string = input("Enter a string: ")
+char = input("Enter a character to count: ")
+if len(char) != 1:
+    print("Please enter only one character.")
+else:
+    count = count(string, char)
+    print(f"The character '{char}' occurs {count} time(s) in the string.")
